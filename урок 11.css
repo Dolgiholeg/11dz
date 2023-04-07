@@ -1,0 +1,32 @@
+html{
+    height: 100%; box-sizing: border-box;
+}
+body{
+    height: 100%;display: flex;font-family: Arial;flex-direction: column;font-size: 16px;background-image: url("https://images.wallpaperscraft.ru/image/single/otkrytoe_more_zakat_volny_14945_1152x864.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+    background-attachment: fixed;
+}
+.form{
+    height: 100%;width: 100%; display: flex;justify-content: center;align-items: center;
+}
+.Pole {
+    border:5px blue solid;background-color: aqua;padding: 20px;border-radius: 10px;width: 500px;height: 700px;display: flex;flex-direction: column;
+    justify-content: space-around; align-items: center;
+}
+h1 {
+    text-align: center;
+}
+img{
+    border:5px blue solid;border-radius: 10px;margin: 0 auto;
+}
+p{
+    text-align: center;
+}
+input{
+    padding: 10px;width: 100px;border:5px blue solid;border-radius: 10px; margin-left: 28px;
+}
+button{
+    border-radius: 10px;padding: 10px;width: 120px;border:5px blue solid;background-color: blue;color: white;
+}
